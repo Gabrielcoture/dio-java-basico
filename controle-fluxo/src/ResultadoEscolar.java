@@ -1,16 +1,11 @@
+
+
 public class ResultadoEscolar {
     public static void main(String[] args) {
-        int nota = 6;
+        int nota = 9;
 
-        if(nota >= 7)
-        System.out.println("Aprovado");
+        String resultado = nota >=5 && nota <7 ? "Recuperação" : "Reprovado";
 
-        else if (nota >= 5 && nota < 7) 
-            System.out.println("Prova de recuperação");
-        
-        else
-        System.out.println("Reprovado, estudei mais, mimimim");
-
-
+        System.out.println(resultado);
     }
 }
